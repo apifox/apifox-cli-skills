@@ -1,6 +1,6 @@
 # Apifox CLI Skills
 
-这个仓库托管 Apifox CLI 的 AI Agent Skills，用于帮助 AI Agent 更准确地使用 Apifox CLI 管理项目资源、设计接口、编排测试、运行自动化测试和处理分支协作。
+Apifox CLI 的 AI Agent Skills 用于帮助 AI Agent 更准确地使用 Apifox CLI 管理项目资源、设计接口、编排测试、运行自动化测试和处理分支协作。
 
 ## 安装
 
