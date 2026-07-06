@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "apifox-cli",
+      "type": "skill-md",
+      "description": "Apifox CLI 总入口：通过 Apifox CLI 管理项目资源，适合尚未细分到具体业务域的通用任务。",
+      "url": "https://apifox.com/.well-known/agent-skills/apifox-cli/SKILL.md",
+      "digest": "sha256:a3518a5ea5dc111285babd17623615b3b18bb5fc73bc91ff369d35424114e56b"
+    },
+    {
+      "name": "apifox-test-case",
+      "type": "skill-md",
+      "description": "Apifox 接口测试用例：test-case、test-data、测试步骤、断言、提取变量、处理器、分类、direct run，以及导入场景前的边界判断。",
+      "url": "https://apifox.com/.well-known/agent-skills/apifox-test-case/SKILL.md",
+      "digest": "sha256:72e298c397d6128186e35f47f9c7d00056a107becfa696571b40c428642c909d"
+    },
+    {
+      "name": "apifox-test-automation",
+      "type": "skill-md",
+      "description": "Apifox 自动化测试执行、套件与 CI：test-suite、scheduled-task、runner、apifox run、执行参数、报告上传和 CI 回归。",
+      "url": "https://apifox.com/.well-known/agent-skills/apifox-test-automation/SKILL.md",
+      "digest": "sha256:d18bf7a0f531876f0dfb884872fe00be98238d8165bb1c4bc8e8d4f935cddadc"
+    },
+    {
+      "name": "apifox-test-scenario",
+      "type": "skill-md",
+      "description": "Apifox 测试场景建模：导入 endpoint/test-case/其它场景步骤、添加场景引用、复杂步骤编排、变量引用、前后置操作和场景调试最佳实践。",
+      "url": "https://apifox.com/.well-known/agent-skills/apifox-test-scenario/SKILL.md",
+      "digest": "sha256:d61bbdafe6d819af8100f5b114fbc401c22c3fb235182db1a005c4b97a3ed259"
+    },
+    {
+      "name": "apifox-branch",
+      "type": "skill-md",
+      "description": "Apifox 分支协作：普通分支、迭代分支、AI 分支、pick-to、merge、merge-request、保护分支和 AI 写入权限。",
+      "url": "https://apifox.com/.well-known/agent-skills/apifox-branch/SKILL.md",
+      "digest": "sha256:bc7c1ba5673a37459c7eea4e678448b5036267a02a0c620262a993273ad48ccc"
+    },
+    {
+      "name": "apifox-cli-checkup",
+      "type": "skill-md",
+      "description": "Apifox CLI 使用检查与版本确认：命令成功但页面没看到、创建后找不到、运行失败、报告缺失、help/提示不一致或本机 CLI 版本过旧。",
+      "url": "https://apifox.com/.well-known/agent-skills/apifox-cli-checkup/SKILL.md",
+      "digest": "sha256:0bad50d3ee9d520d0480cb11c83c90a94854506b82b68efcf3caa9226cfa4ebf"
+    },
+    {
+      "name": "apifox-import-export",
+      "type": "skill-md",
+      "description": "Apifox 导入导出：OpenAPI/Postman/Swagger/Apifox 等项目级格式导入导出、spec 质量门禁、目录分组和导入结果验证。",
+      "url": "https://apifox.com/.well-known/agent-skills/apifox-import-export/SKILL.md",
+      "digest": "sha256:6312615ede2a444c7036a190579622fec956ab9e37f141ff005b27f5cc3c27f0"
+    },
+    {
+      "name": "apifox-workflow-api-lifecycle",
+      "type": "skill-md",
+      "description": "Apifox API 生命周期工作流：从需求到接口设计、Schema、环境、Mock、测试用例、文档导出/发布和分支合并。",
+      "url": "https://apifox.com/.well-known/agent-skills/apifox-workflow-api-lifecycle/SKILL.md",
+      "digest": "sha256:8945ac63673ec0e5ea04621d513db2e2ff3b3c75368bc57ddcc3989d682503ac"
+    }
+  ]
+}
