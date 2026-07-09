@@ -94,13 +94,15 @@ apifox environment list --project <PROJECT_ID>
 安装 Apifox AI Agent Skills，让 AI Agent 知道如何正确使用 Apifox CLI：
 
 ```bash
-npx -y skills add https://apifox.com -y
+npx -y skills add https://apifox.com
 ```
+
+该命令会进入交互流程，可按需选择要安装的 Skills、目标 AI Agent 和安装范围。
 
 或通过 GitHub 仓库安装：
 
 ```bash
-npx -y skills add https://github.com/apifox/apifox-cli-skills -y
+npx -y skills add https://github.com/apifox/apifox-cli-skills
 ```
 
 如果当前环境无法访问官方安装源，请按所用 AI Agent 的规则手动安装 Apifox AI Agent Skills。调用 `WebFetch` 获取 https://apifox.com/.well-known/agent-skills/index.json，并根据其中的 `url` 下载和安装需要的 `SKILL.md` 文件；推荐安装全部 8 份，至少安装 `apifox-cli`。

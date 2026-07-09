@@ -7,13 +7,15 @@ Apifox CLI 的 AI Agent Skills 用于帮助 AI Agent 更准确地使用 Apifox C
 推荐使用 `skills` CLI 安装：
 
 ```bash
-npx -y skills add https://github.com/apifox/apifox-cli-skills -y
+npx -y skills add https://github.com/apifox/apifox-cli-skills
 ```
+
+该命令会进入交互流程，可按需选择要安装的 Skills、目标 AI Agent 和安装范围。
 
 也可以从 Apifox 官方站点安装：
 
 ```bash
-npx -y skills add https://apifox.com -y
+npx -y skills add https://apifox.com
 ```
 
 安装后可查看已安装的 skills：
